@@ -1,0 +1,166 @@
+.container-fluid{
+    background-image:url(../img/footer_lodyas.png);
+    width :100%;
+
+}
+hr.linecon{
+    color: white!important;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    width: 100px;
+}
+p.content-desc{
+    font-size: 20px!important;
+}
+
+p.project-desc{
+    font-size: 20px!important;
+}
+
+.col-sm-6{
+    margin-left: -50px;
+    margin-right: -20px;
+}
+
+
+.home-photo{
+    width: 600px;
+}
+
+.home-photo2{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.home-title1{
+    font-size: 75px!important;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.home-title2{
+    font-size: 75px!important;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+.home-desc1{
+    margin-top: -20px;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 23px!important;
+}
+
+.home-desc2{
+    margin-top: 150px;
+    margin-left: 80px;
+    text-align: justify;
+    font-size: 23px!important;
+}
+
+.btn-primary{
+    background-color: #39A6A3;
+    margin-bottom: -120px;
+}
+
+.card-title{
+    color: white;
+    font-family: Sora;
+}
+
+.col-sm-6{
+    border-color: none!important;
+}
+.card-body{
+    background-color: #151515;
+    height: 320px;
+}
+
+.card-text{
+    font-size: 20px!important;
+}
+
+p.contact-desc{
+    font-size: 20px!important;
+}
+
+.fab{
+    margin :30px;
+}
+
+.navbar-brand{
+    font-family:Sora ;
+    font-size: 32px;
+}
+
+.navbar-nav{
+    font-family: Sora;
+    margin-left: auto;
+}
+
+.navbar{
+    z-index: 2;
+}
+
+.jumbotron{
+    background-image: url(../img/slider2.jpg);
+    height: 640px;
+    width : 100%;
+    background-size: cover;
+    text-align: center;
+    position: absolute;
+}
+ 
+.jumbotron .display-4{
+    margin-top: 250px;
+    color :whitesmoke;
+    font-family: Sora;
+   }
+
+.jumbotron p {
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: Sora;
+}
+
+@media (min-width: 992px){
+    .jumbotron{
+        margin-top: -100px;
+    }
+    .nav-link{
+        color: white!important;
+    }
+    .navbar-brand{
+        color: white!important;
+    }
+
+    .home-title1{
+        margin-left: 200px;
+        margin-top: -25px;
+    }
+
+    .home-title2{
+        margin-top: -50px;
+        margin-left: 250px;
+    }
+
+    .home-desc1{
+        margin-top: -20px;
+        margin-left: 200px;
+    }
+
+    .home-desc2{
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .home-photo2{
+        width: 600px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+}
